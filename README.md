@@ -5,8 +5,11 @@ NOTE:
 This code was written in jupyter notebooks. To use, please clone this repository and open a terminal and run `jupyter notebook` then navigate to your local repository where you saved this code. 
 
 ## Project Overview:
+This project entailed simulating a planar multi-body, multi-impact dynamic system for which I chose to model a jack-in-a-box. Given that both the jack and the box have mass and the box also experiences an external force, I calculated multiple rigid body tranformations to find the Euler-Lagrange equations, dynamic constraints, and impact update laws.
 
-## Diagrams:
+## Model Description:
+In my model, I imagined a "bird's-eye-view" of the system, meaning the system lies on the x-y plane of an imaginary table and the z axis (which experiences gravity) is out of the plane. 
+
 See the images below for a drawing of the system and its components with all of the frames. There are 11 frames in total:
 * W: The inertia frame W (Shown in all images in bottom left)
 * B0: The frame at the center of the box (Shown in images 1 and 3)
@@ -14,7 +17,7 @@ See the images below for a drawing of the system and its components with all of 
 * J0: the frame at the center of the jack (Shown in images 2 and 3)
 * j1, j2, j3, and j4: the frames at each corner of the jack (Shown in images 2 and 3)
 
-(INSERT 3 IMAGES)
+![box_transforms](https://user-images.githubusercontent.com/70979347/105276419-f3cca900-5b66-11eb-8eab-86fcacb1767d.png)
 
 ## Rigid Body Transformations:
 The rigid body transforms between frames (shown above) are as follows:
