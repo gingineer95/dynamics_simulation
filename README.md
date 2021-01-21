@@ -18,6 +18,13 @@ See the images below for a drawing of the system and its components with all of 
 * j1, j2, j3, and j4: the frames at each corner of the jack (Shown in images 2 and 3)
 
 ![box_transforms](https://user-images.githubusercontent.com/70979347/105276419-f3cca900-5b66-11eb-8eab-86fcacb1767d.png)
+Image 1: Box diagram of frames and transformations
+
+![jack_transforms](https://user-images.githubusercontent.com/70979347/105276550-44440680-5b67-11eb-981d-7ab0ea0e2813.png)
+Image 2: Jack diagram of frames and transformations
+
+![box_to_jack](https://user-images.githubusercontent.com/70979347/105276595-5756d680-5b67-11eb-858d-bcbca0402f06.png)
+Image 3: Total System diagram (all frames and one transform)
 
 ## Rigid Body Transformations:
 The rigid body transforms between frames (shown above) are as follows:
